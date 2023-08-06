@@ -1,0 +1,47 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/ide_debug_device-0000001053822404-V3#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\23147\\.ohos\\config\\auto_debug_Toolkit_com.example.toolkit_70086000307916096.p12')
+            storePassword '0000001A31D03F9157A3454BD996834E2E2625397153CB51C071F42EB8A2FB53767DD80BBA4989F25BF4'
+            keyAlias = 'debugKey'
+            keyPassword '0000001AE3324F8415B1B050AC6D383522755C36C49B6EDE5139C9B501FEF38B50320E74DD69EC95ABA3'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\23147\\.ohos\\config\\auto_debug_Toolkit_com.example.toolkit_70086000307916096.p7b')
+            certpath file('C:\\Users\\23147\\.ohos\\config\\auto_debug_Toolkit_com.example.toolkit_70086000307916096.cer')
+        }
+    }
+    compileSdkVersion 6
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.1.2.0'
+        classpath 'com.huawei.ohos:decctest:1.2.7.19'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+        maven {
+            url 'https://s01.oss.sonatype.org/content/repositories/releases/'
+        }
+    }
+}

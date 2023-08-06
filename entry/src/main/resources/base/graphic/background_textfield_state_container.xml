@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state-container xmlns:ohos="http://schemas.huawei.com/res/ohos">
+    <item ohos:state="component_state_pressed" ohos:element="#FFDAB9"/> <!--按下时-->
+    <item ohos:state="component_state_focused" ohos:element="#FFE4C4"/> <!--具有焦点时-->
+    <item ohos:state="component_state_empty" ohos:element="#FFFAF0"/> <!--正常状态-->
+</state-container>

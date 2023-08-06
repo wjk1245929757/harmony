@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:id="$+id:tool_layout1"
+        ohos:height="match_parent"
+        ohos:weight="1"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:image_website"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="2"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"
+            ohos:image_src="$media:website"/>
+
+        <Text
+            ohos:id="$+id:text_tool1"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text="web2word"
+            ohos:text_alignment="center"
+            ohos:text_size="20vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_parent"
+        ohos:weight="1"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:image_pdf"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="2"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"
+            ohos:image_src="$media:pdf"/>
+
+        <Text
+            ohos:id="$+id:text_tool2"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text="pdf2word"
+            ohos:text_alignment="center"
+            ohos:text_size="20vp"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_parent"
+        ohos:weight="1"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:image_img"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="2"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"
+            ohos:image_src="$media:img"/>
+
+        <Text
+            ohos:id="$+id:text_tool3"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text="img2word"
+            ohos:text_alignment="center"
+            ohos:text_size="20vp"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>

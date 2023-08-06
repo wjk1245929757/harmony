@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:text="登陆注册"
+        ohos:text_size="40vp"
+        />
+    <TextField
+        ohos:id="$+id:login_textfield_username"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="6vp"
+        ohos:text_size="26vp"
+        ohos:hint="Input account"
+        ohos:background_element="$graphic:background_textfield_state_container"/>
+
+    <TextField
+        ohos:id="$+id:login_textfield_password"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="6vp"
+        ohos:text_size="26vp"
+        ohos:hint="Input password"
+        ohos:text_input_type="pattern_password"
+        ohos:background_element="$graphic:background_textfield_state_container"/>
+    <Button
+        ohos:id="$+id:login_btn1"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="提交"
+        ohos:text_size="20vp"
+        ohos:layout_alignment="center"
+        ohos:margin="4vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_button"/>
+
+</DirectionalLayout>

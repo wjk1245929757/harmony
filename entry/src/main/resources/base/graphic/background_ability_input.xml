@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shape xmlns:ohos="http://schemas.huawei.com/res/ohos"
+       ohos:shape="rectangle">
+<!--    <corners-->
+<!--        ohos:radius="12vp"/>-->
+    <!-- 设置输入框的边框颜色 -->
+    <stroke
+        ohos:width="2"
+        ohos:color="#000000"/>
+
+    <solid
+        ohos:color="#D3D3D3"/>
+</shape>
